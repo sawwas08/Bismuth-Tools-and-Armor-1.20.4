@@ -11,13 +11,12 @@ import net.minecraft.util.Identifier;
 import net.sawwas08.bismuthmod.BismuthMod;
 
 public class ModItems {
-
     public static final Item BISMUTH = registerItem("bismuth", new Item(new FabricItemSettings()));
-
+    public static final Item RAW_BISMUTH = registerItem("raw_bismuth", new Item(new FabricItemSettings()));
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(BISMUTH);
+        entries.add(RAW_BISMUTH);
     }
-
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(BismuthMod.MOD_ID, name), item);
     }

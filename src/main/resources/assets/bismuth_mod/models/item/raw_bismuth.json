@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "Layer0": "bismuth_mod:item/Bismuth"
+    "layer0": "bismuth_mod:item/raw_bismuth"
   }
 }
