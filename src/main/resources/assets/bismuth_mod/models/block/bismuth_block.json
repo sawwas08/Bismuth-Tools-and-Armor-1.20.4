@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "bismuth_mod:block/bismuth_block"
+  }
+}

@@ -2,5 +2,7 @@
   "item.bismuth_mod.bismuth": "Bismuth",
   "item.bismuth_mod.raw_bismuth": "Raw Bismuth",
 
-  "itemgroup.bismuth": "Bismuth Tools and Armor"
+  "itemgroup.bismuth": "Bismuth Tools and Armor",
+
+  "block.bismuth_mod.bismuth_block": "Block of Bismuth"
 }

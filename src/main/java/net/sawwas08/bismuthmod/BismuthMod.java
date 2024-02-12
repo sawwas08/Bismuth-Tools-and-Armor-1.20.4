@@ -2,6 +2,7 @@ package net.sawwas08.bismuthmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.sawwas08.bismuthmod.block.ModBlocks;
 import net.sawwas08.bismuthmod.item.ModItemGroups;
 import net.sawwas08.bismuthmod.item.ModItems;
 import org.slf4j.Logger;
@@ -22,6 +23,8 @@ public class BismuthMod implements ModInitializer {
 
 		LOGGER.info("Hello Fabric world!");
 		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
