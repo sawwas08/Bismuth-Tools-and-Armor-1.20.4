@@ -4,5 +4,6 @@
 
   "itemgroup.bismuth": "Bismuth Tools and Armor",
 
-  "block.bismuth_mod.bismuth_block": "Block of Bismuth"
+  "block.bismuth_mod.bismuth_block": "Block of Bismuth",
+  "block.bismuth_mod.raw_bismuth_block": "Block of Raw Bismuth"
 }

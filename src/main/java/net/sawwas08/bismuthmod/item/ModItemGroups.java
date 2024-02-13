@@ -21,6 +21,7 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_BISMUTH);
 
                         entries.add(ModBlocks.BISMUTH_BLOCK);
+                        entries.add(ModBlocks.RAW_BISMUTH_BLOCK);
 
                     }).build());
 

@@ -16,6 +16,8 @@ public class ModBlocks {
 
     public static final Block BISMUTH_BLOCK = registerBlock("bismuth_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).mapColor(MapColor.YELLOW)));
+    public static final Block RAW_BISMUTH_BLOCK = registerBlock("raw_bismuth_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.RAW_GOLD_BLOCK)));
 
 
     private static Block registerBlock(String name, Block block) {
